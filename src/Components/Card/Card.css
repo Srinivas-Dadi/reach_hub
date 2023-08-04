@@ -1,0 +1,75 @@
+.Card{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1vw;
+    width: 200px;
+    height: 300px; 
+    border-radius: 20px;
+    padding: 1vw;
+    transition: 1s;
+}
+
+.CardImg{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.CardImg img{
+    height: 140px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.CardDesc{
+    padding: 1px;
+    display: grid;
+    place-items: center;
+}
+
+.Title{
+    font-size: 10px;
+}
+
+
+.Price-Rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    margin: 5px 0px;
+}
+
+.Rating{
+    background-color: rgb(7, 250, 7);
+    border-radius: 5px;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+button:hover{
+    scale: 1.2;
+    background-color: rgba(0, 128, 0, 0.34);
+    margin: 2px;
+}
+
+.Card:hover{
+    scale: 1.2;
+}

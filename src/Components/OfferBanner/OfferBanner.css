@@ -1,0 +1,28 @@
+.OfferBanner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    place-items: center;
+    height: 20vw;
+    background-color: #fbf0e4;    
+}
+
+.OfferHead{
+    margin: 4vw;
+    font-size: 3vw;
+    color: green;
+}
+
+
+@media screen and (max-width:500px) {
+    .OfferBanner{
+        grid-template-columns: 1fr;
+    }
+    .OfferHead{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .img{
+        display: none !important;
+    }
+}

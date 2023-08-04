@@ -1,0 +1,63 @@
+.Nav{
+    display: grid;
+    grid-template-columns: .3fr 1fr 1.3fr;
+    gap: 1vw;
+    height: 10vw;
+    place-items: center;
+}
+
+.Logo h1{
+    color: green;
+    font-size: 3vw;
+    font-weight: 700px;
+}
+
+.Category{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.Category p{
+    font-size: 1.5vw;
+}
+
+.Search-Cart{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    place-items: center;
+}
+
+.Search{
+    display: flex;
+    background-color: #66666671;
+    padding: .5vw;
+    border-radius: 20px;
+    justify-content: space-between;
+    place-items: center;
+    width: 25vw;
+    font-size: 5vw;
+}
+
+.Search input{
+    background:none;
+    border: none;
+    height: 2vw;
+}
+
+.Search-icon{
+    height: 20px;
+    
+}
+
+.Cart{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Cart p{
+    font-size: 1.5vw;
+}
