@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: .3fr 1fr 1.3fr;
     gap: 1vw;
-    height: 60px;
+    height: 80px;
     place-items: center;
 }
 
@@ -43,7 +43,7 @@
 .Search input{
     background:none;
     border: none;
-    height: 2vw;
+    height: max-content;
 }
 
 .Search-icon{
@@ -59,4 +59,14 @@
 
 .Cart p{
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 700px){
+    .Nav{
+    display: grid;
+    grid-template-columns: .3fr 1fr 1.3fr;
+    gap: 1vw;
+    height: 50px;
+    place-items: center;
+}
 }
