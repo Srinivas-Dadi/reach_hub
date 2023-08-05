@@ -20,7 +20,6 @@ const Item = () => {
       fetch(`https://fakestoreapi.com/products/${id}`)
       .then((res) => res.json())
       .then((res) => setItem(res))
-      .then(console.log(item))
       setFet(true)
       }
     }
