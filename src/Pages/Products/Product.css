@@ -6,6 +6,19 @@
     margin: 2vw;
 }
 
+.Cat{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Cat p{
+    background-color: lightgray;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 900px)  {
     .Products{
         display: grid;

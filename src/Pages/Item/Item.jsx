@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import Nav from '../../Components/NavBar/Nav';
 import './Item.css'
 import {AiOutlineMinus, AiOutlinePlus} from 'react-icons/ai'
+import {TbTruckDelivery} from 'react-icons/tb'
+
 
 const Item = () => {
 
@@ -49,7 +51,7 @@ const Item = () => {
       <Nav/>
       {fet &&
       <div>
-      <hr className='line'/>
+      <center><hr className='line'/></center>
       <div className="ItemPath">
         <p> <Link to='/' >Product/Item/ </Link> </p> <p> {item.title}</p>
       </div>
@@ -78,7 +80,13 @@ const Item = () => {
             <p className='Buy'>Buy Now</p>
             <p className='AddToCart'>Add To Cart</p>
           </div>
-          div.
+          <div className="Delivery">
+            <p className='Deli-Icon'><TbTruckDelivery /></p>
+            <div className='Del-desc'>
+              <h3>Fast Delivery Availible</h3>
+              <p>Delivers your product just in 24 hours</p>
+            </div>
+          </div>
         </div>
       </div>
       </div>

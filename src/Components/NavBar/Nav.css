@@ -6,10 +6,10 @@
     place-items: center;
 }
 
-.Logo h1{
+.Logo p{
     color: #003d2a;
-    font-size: 3vw;
-    font-weight: 700px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .Category{

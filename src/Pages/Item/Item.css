@@ -1,7 +1,7 @@
 .line{
     height: 2px;
     color: #666;
-    width: 100%;
+    width: 80%;
 }
 
 .ItemPath{
@@ -136,6 +136,27 @@ h2{
     color: #003d2a;
     border: 2px solid #003d2a;
 }
+
+.Delivery{
+    display: flex;
+    width: max-content;
+    gap: 2rem;
+    border: 2px solid #003d2a;
+    padding: 10px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deli-Icon{
+    font-size: 50px;
+}
+
+.Del-desc p{
+    font-size: 10px;
+    color: #003d2a;
+}
+
 
 @media screen and (max-width: 950px) {
     .Buttons{
