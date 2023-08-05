@@ -2,12 +2,12 @@
     display: grid;
     grid-template-columns: .3fr 1fr 1.3fr;
     gap: 1vw;
-    height: 10vw;
+    height: 8vw;
     place-items: center;
 }
 
 .Logo h1{
-    color: green;
+    color: #003d2a;
     font-size: 3vw;
     font-weight: 700px;
 }

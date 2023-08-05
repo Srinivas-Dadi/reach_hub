@@ -19,8 +19,6 @@ const Product = () => {
         })
     },[]);  
 
-    console.log(data);
-
   return (
     <div>
       <Nav />
@@ -29,7 +27,7 @@ const Product = () => {
       {
         data.map((e) => {
           return (
-          <Link to={`/item/${e.id}`}>
+          <Link to={`/item/${e.id}`} key={e.id}>
             <Card d={e} key={e.id} />
           </Link>
           )

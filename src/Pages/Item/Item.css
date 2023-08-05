@@ -1,0 +1,155 @@
+.line{
+    height: 2px;
+    color: #666;
+    width: 100%;
+}
+
+.ItemPath{
+    display: flex;
+}
+
+.ItemPath p{
+    font-size: 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: #666;
+}
+.ItemPath p {
+    font-size: 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: #666;
+}
+
+.Item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.ItemImg{
+    padding: 50px;
+}
+
+.ItemImg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.ItemDetails{
+    padding: 20px;
+    margin: 20px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.ItemTitle{
+    font-size: 30px;
+    font-weight:700;
+}
+
+.ItemDesc{
+    font-size: 10px;
+    margin: 5px;
+    padding-right: 100px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.ItemRating{
+    margin: 10px 5px;
+    color: green;
+}
+
+.ItemPrice{
+    padding: 20px 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+span{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.OrderCount{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.OrderCount div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #abababcd;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #adabab;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.Buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin: 40px 0px;
+    width: 70%;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.Buttons p{
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Buy{
+   color: white;
+   background-color: #003d2a;
+   border: 2px solid #003d2a;
+}
+
+.AddToCart{
+    color: #003d2a;
+    border: 2px solid #003d2a;
+}
+
+@media screen and (max-width: 950px) {
+    .Buttons{
+        width: 100%;
+    }
+    .OrderCount{
+        width: 100%;    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Item{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

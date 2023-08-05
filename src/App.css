@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
   padding: 0px;
   margin: 0px;
@@ -8,4 +10,5 @@
 
 .App{
   padding: 0px 3vw;
+  font-family: 'Poppins', sans-serif;
 }

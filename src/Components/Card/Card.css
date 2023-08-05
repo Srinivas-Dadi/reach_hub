@@ -16,9 +16,10 @@
 }
 
 .CardImg img{
-    height: 140px;
-    width: 120px;
+    width: 150px;
     border-radius: 10px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
 .CardDesc{
@@ -41,7 +42,7 @@
 }
 
 .Rating{
-    background-color: rgb(7, 250, 7);
+    background-color: #003d2a95;
     border-radius: 5px;
     padding: 0px 5px;
     display: flex;
@@ -66,10 +67,10 @@ button{
 
 button:hover{
     scale: 1.2;
-    background-color: rgba(0, 128, 0, 0.34);
+    background-color: #003d2a;
     margin: 2px;
 }
 
 .Card:hover{
-    scale: 1.2;
+    scale: 1.3;
 }
