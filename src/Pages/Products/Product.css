@@ -7,22 +7,31 @@
 }
 
 .Cat{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap : 10px;
+    text-align: center;
     justify-content: space-evenly;
 }
 
 .Cat p{
     background-color: lightgray;
-    padding: 5px 15px;
+    padding: 5px 0px;
     border-radius: 20px;
     margin: 10px 0px;
     cursor: pointer;
+    height: 30px;
 }
 
 @media screen and (max-width: 900px)  {
     .Products{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Cat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap : 10px;
     }
 }
 
@@ -37,5 +46,10 @@
     .Products{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .Cat{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap : 10px;
     }
 }

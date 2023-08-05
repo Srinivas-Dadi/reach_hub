@@ -2,13 +2,13 @@
     display: grid;
     grid-template-columns: .3fr 1fr 1.3fr;
     gap: 1vw;
-    height: 8vw;
+    height: 60px;
     place-items: center;
 }
 
 .Logo p{
     color: #003d2a;
-    font-size: 40px;
+    font-size: 5vw;
     font-weight: 900;
 }
 
@@ -38,7 +38,6 @@
     justify-content: space-between;
     place-items: center;
     width: 25vw;
-    font-size: 5vw;
 }
 
 .Search input{
